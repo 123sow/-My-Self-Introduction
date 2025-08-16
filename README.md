@@ -18,4 +18,4 @@ It introduces myself, my skills, and my interests in **Python Full Stack Develop
 👉 [Click here to view my project](https://123sow.github.io/-My-Self-Introduction/)
 
 ## Author
-👩‍💻 Developed by P Sowmya (https://github.com/123sow)
+👩‍💻 Developed by Sowmya (https://github.com/123sow)
