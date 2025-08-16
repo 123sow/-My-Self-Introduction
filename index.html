@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sowmya | Python Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Hero Section -->
+  <section>
+    <h1>Hi, I’m Sowmya 👩‍💻</h1>
+    <div class="typing" id="typing"></div>
+  </section>
+
+  <!-- Skills Section -->
+  <section>
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card">Python</div>
+      <div class="card">Django</div>
+      <div class="card">React</div>
+      <div class="card">MongoDB</div>
+      <div class="card">HTML & CSS</div>
+      <div class="card">JavaScript</div>
+      <div class="card">Git & GitHub</div>
+      <div class="card">SQL</div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section>
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Serverless Iot Data Processing</h3>
+        <p>Google CF + IOT Core + Dynamo DB</p>
+        <a href="https://github.com/123sow/PROJECT-PHASE-1.git" class="btn">View Project →</a>
+      </div>
+      <div class="card">
+        <h3>Automated Web Crawling with LLM structing</h3>
+        <p>LLM + RAG+ Python + NLP</p>
+        <a href="https://github.com/123sow/Web-Crawler.gi" class="btn">View Project →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <p>Let’s connect! I’m open to Python Full Stack opportunities.</p>
+    <a href="mailto:sowmyareddyp916@gmail.com" class="btn">Email</a>
+    <a href="www.linkedin.com/in/p-sowmya-402689371" target="_blank" class="btn">LinkedIn</a>
+    <a href="https://github.com/123sow" target="_blank" class="btn">GitHub</a>
+  </section>
+
+  <script>
+    // Typing effect
+    const texts = [
+      "Python Full Stack Developer",
+      "Django | React | MongoDB",
+      "Open to Opportunities 🚀"
+    ];
+    let count = 0;
+    let index = 0;
+    let currentText = "";
+    let letter = "";
+
+    function type() {
+      if (count === texts.length) count = 0;
+      currentText = texts[count];
+      letter = currentText.slice(0, ++index);
+
+      document.getElementById("typing").textContent = letter;
+
+      if (letter.length === currentText.length) {
+        count++;
+        index = 0;
+        setTimeout(type, 1000);
+      } else {
+        setTimeout(type, 100);
+      }
+    }
+    type();
+  </script>
+</body>
+</html>
