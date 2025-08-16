@@ -15,7 +15,7 @@ It introduces myself, my skills, and my interests in **Python Full Stack Develop
 - CSS3
 
 ## Live Demo
-👉 [Click here to view my project](https://P Sowmya.github.io/My-Self-Introduction)
+👉 [Click here to view my project](https://123sow.github.io/-My-Self-Introduction/)
 
 ## Author
 👩‍💻 Developed by P Sowmya (https://github.com/123sow)
